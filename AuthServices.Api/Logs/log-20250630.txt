@@ -1,0 +1,317 @@
+[00:19:12 INF] Login Sign In
+[00:21:45 INF] Login Sign In
+[00:24:31 INF] Login Sign In
+[00:25:27 INF] Login Sign In
+[00:25:27 ERR] Unhandled exception occurred
+AuthServices.Application.Exceptions.AuthenticationException: Invalid email or password
+   at AuthServices.Infraestructure.Service.AuthService.AuthenticateAsync(String email, String password) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\AuthService.cs:line 60
+   at AuthServices.Api.Controllers.AuthController.Login(CredentialDto loginDto) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Controllers\AuthController.cs:line 35
+   at lambda_method23(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AuthServices.Api.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Middlewares\ErrorHandlingMiddleware.cs:line 22
+[00:25:30 INF] Login Sign In
+[00:25:30 ERR] Unhandled exception occurred
+AuthServices.Application.Exceptions.AuthenticationException: Invalid email or password
+   at AuthServices.Infraestructure.Service.AuthService.AuthenticateAsync(String email, String password) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\AuthService.cs:line 60
+   at AuthServices.Api.Controllers.AuthController.Login(CredentialDto loginDto) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Controllers\AuthController.cs:line 35
+   at lambda_method23(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AuthServices.Api.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Middlewares\ErrorHandlingMiddleware.cs:line 22
+[00:25:37 INF] Login Sign In
+[00:27:12 INF] Task Created
+[00:27:33 INF] Login Sign In
+[00:29:24 INF] Login Sign In
+[00:29:29 ERR] Error while retrieving the task by ID.
+AuthServices.Application.Exceptions.RequestException: Task not found
+   at AuthServices.Infraestructure.Service.TaskService.GetTaskByIdAsync(Guid TaskId) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\TaskService.cs:line 286
+[00:29:29 ERR] Unhandled exception occurred
+AuthServices.Application.Exceptions.RequestException: Task not found
+   at AuthServices.Infraestructure.Service.TaskService.GetTaskByIdAsync(Guid TaskId) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\TaskService.cs:line 293
+   at AuthServices.Api.Controllers.TaskController.GetUsersbyID(Guid TaskId) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Controllers\TaskController.cs:line 73
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AuthServices.Api.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Middlewares\ErrorHandlingMiddleware.cs:line 22
+[00:29:29 ERR] Error while retrieving the task by ID.
+AuthServices.Application.Exceptions.RequestException: Task not found
+   at AuthServices.Infraestructure.Service.TaskService.GetTaskByIdAsync(Guid TaskId) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\TaskService.cs:line 286
+[00:29:29 ERR] Unhandled exception occurred
+AuthServices.Application.Exceptions.RequestException: Task not found
+   at AuthServices.Infraestructure.Service.TaskService.GetTaskByIdAsync(Guid TaskId) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\TaskService.cs:line 293
+   at AuthServices.Api.Controllers.TaskController.GetUsersbyID(Guid TaskId) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Controllers\TaskController.cs:line 73
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AuthServices.Api.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Middlewares\ErrorHandlingMiddleware.cs:line 22
+[00:30:05 ERR] Error while retrieving the task by ID.
+AuthServices.Application.Exceptions.RequestException: Task not found
+   at AuthServices.Infraestructure.Service.TaskService.GetTaskByIdAsync(Guid TaskId) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\TaskService.cs:line 286
+[00:30:05 ERR] Unhandled exception occurred
+AuthServices.Application.Exceptions.RequestException: Task not found
+   at AuthServices.Infraestructure.Service.TaskService.GetTaskByIdAsync(Guid TaskId) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\TaskService.cs:line 293
+   at AuthServices.Api.Controllers.TaskController.GetUsersbyID(Guid TaskId) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Controllers\TaskController.cs:line 73
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AuthServices.Api.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Middlewares\ErrorHandlingMiddleware.cs:line 22
+[00:30:07 ERR] Error while retrieving the task by ID.
+AuthServices.Application.Exceptions.RequestException: Task not found
+   at AuthServices.Infraestructure.Service.TaskService.GetTaskByIdAsync(Guid TaskId) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\TaskService.cs:line 286
+[00:30:07 ERR] Unhandled exception occurred
+AuthServices.Application.Exceptions.RequestException: Task not found
+   at AuthServices.Infraestructure.Service.TaskService.GetTaskByIdAsync(Guid TaskId) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\TaskService.cs:line 293
+   at AuthServices.Api.Controllers.TaskController.GetUsersbyID(Guid TaskId) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Controllers\TaskController.cs:line 73
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AuthServices.Api.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Middlewares\ErrorHandlingMiddleware.cs:line 22
+[00:31:46 INF] Login Sign In
+[00:32:30 INF] Login Sign In
+[00:32:30 ERR] Unhandled exception occurred
+AuthServices.Application.Exceptions.AuthenticationException: Invalid email or password
+   at AuthServices.Infraestructure.Service.AuthService.AuthenticateAsync(String email, String password) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\AuthService.cs:line 60
+   at AuthServices.Api.Controllers.AuthController.Login(CredentialDto loginDto) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Controllers\AuthController.cs:line 35
+   at lambda_method23(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AuthServices.Api.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\usuario\Desktop\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Middlewares\ErrorHandlingMiddleware.cs:line 22
+[00:32:34 INF] Login Sign In
+[10:28:30 INF] Login Sign In
+[10:29:27 INF] Rol Created
+[10:29:34 INF] Rol Created
+[14:58:47 INF] Login Sign In
+[14:59:17 INF] Task Created
+[15:52:28 ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "PUT api/Task/updatedTask" for actions - AuthServices.Api.Controllers.TaskController.UpdateUser (AuthServices.Api),AuthServices.Api.Controllers.TaskController.UpdateTask (AuthServices.Api). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[15:52:48 ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+AuthServices.Api.Controllers.TaskController.UpdateUser (AuthServices.Api)
+AuthServices.Api.Controllers.TaskController.UpdateTask (AuthServices.Api)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[16:14:38 INF] Login Sign In
+[16:22:13 INF] Task Update
+[16:22:33 INF] Task Update
+[16:22:59 INF] Task Update
+[16:23:18 INF] Task Update
+[16:28:42 INF] Login Sign In
+[16:29:22 INF] Account Created
+[16:29:23 INF] User Created
+[16:30:03 INF] Account Created
+[16:30:03 INF] User Created
+[16:30:21 INF] Login Sign In
+[16:30:21 ERR] Unhandled exception occurred
+AuthServices.Application.Exceptions.AuthenticationException: Invalid email or password
+   at AuthServices.Infraestructure.Service.AuthService.AuthenticateAsync(String email, String password) in C:\Users\nelson.rodriguez\Downloads\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\AuthService.cs:line 60
+   at AuthServices.Api.Controllers.AuthController.Login(CredentialDto loginDto) in C:\Users\nelson.rodriguez\Downloads\Dev_ApiAuthService\Fuentes\AuthServices.Api\Controllers\AuthController.cs:line 35
+   at lambda_method35(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AuthServices.Api.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\nelson.rodriguez\Downloads\Dev_ApiAuthService\Fuentes\AuthServices.Api\Middlewares\ErrorHandlingMiddleware.cs:line 22
+[16:30:26 INF] Login Sign In
+[16:30:26 ERR] Unhandled exception occurred
+AuthServices.Application.Exceptions.AuthenticationException: Invalid email or password
+   at AuthServices.Infraestructure.Service.AuthService.AuthenticateAsync(String email, String password) in C:\Users\nelson.rodriguez\Downloads\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\AuthService.cs:line 60
+   at AuthServices.Api.Controllers.AuthController.Login(CredentialDto loginDto) in C:\Users\nelson.rodriguez\Downloads\Dev_ApiAuthService\Fuentes\AuthServices.Api\Controllers\AuthController.cs:line 35
+   at lambda_method35(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AuthServices.Api.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\nelson.rodriguez\Downloads\Dev_ApiAuthService\Fuentes\AuthServices.Api\Middlewares\ErrorHandlingMiddleware.cs:line 22
+[16:30:29 INF] Login Sign In
+[16:39:32 INF] Task Update
+[16:56:44 INF] Login Sign In
+[16:57:38 INF] Login Sign In
+[16:59:14 INF] Login Sign In
+[16:59:14 ERR] Unhandled exception occurred
+AuthServices.Application.Exceptions.AuthenticationException: Invalid email or password
+   at AuthServices.Infraestructure.Service.AuthService.AuthenticateAsync(String email, String password) in C:\Users\nelson.rodriguez\Downloads\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\AuthService.cs:line 60
+   at AuthServices.Api.Controllers.AuthController.Login(CredentialDto loginDto) in C:\Users\nelson.rodriguez\Downloads\Dev_ApiAuthService\Fuentes\AuthServices.Api\Controllers\AuthController.cs:line 35
+   at lambda_method35(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AuthServices.Api.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\nelson.rodriguez\Downloads\Dev_ApiAuthService\Fuentes\AuthServices.Api\Middlewares\ErrorHandlingMiddleware.cs:line 22
+[16:59:18 INF] Login Sign In
+[17:01:15 INF] Login Sign In
+[17:05:05 INF] Login Sign In
+[17:05:40 INF] Login Sign In
+[22:51:54 INF] Login Sign In
+[22:52:17 INF] Task Update
+[22:52:24 INF] Task Update
+[22:55:19 INF] Account Created
+[22:55:20 INF] User Created
+[22:56:17 INF] User Update
+[22:56:27 INF] User Update
+[23:01:01 INF] Task Update
+[23:01:24 INF] Task Update
+[23:06:06 INF] Task Update
+[23:06:14 INF] Task Update
+[23:08:26 INF] Task Update
+[23:08:30 INF] Task Update
+[23:08:35 INF] Task Update
+[23:08:40 INF] Task Update
+[23:09:02 INF] Login Sign In
+[23:09:14 INF] Task Update
+[23:09:28 INF] Login Sign In
+[23:09:28 ERR] Unhandled exception occurred
+AuthServices.Application.Exceptions.AuthenticationException: Invalid email or password
+   at AuthServices.Infraestructure.Service.AuthService.AuthenticateAsync(String email, String password) in C:\Users\usuario\Downloads\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\AuthService.cs:line 77
+   at AuthServices.Api.Controllers.AuthController.Login(CredentialDto loginDto) in C:\Users\usuario\Downloads\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Controllers\AuthController.cs:line 35
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AuthServices.Api.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\usuario\Downloads\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Middlewares\ErrorHandlingMiddleware.cs:line 22
+[23:09:33 INF] Login Sign In
+[23:09:33 ERR] Unhandled exception occurred
+AuthServices.Application.Exceptions.AuthenticationException: Invalid email or password
+   at AuthServices.Infraestructure.Service.AuthService.AuthenticateAsync(String email, String password) in C:\Users\usuario\Downloads\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\AuthService.cs:line 60
+   at AuthServices.Api.Controllers.AuthController.Login(CredentialDto loginDto) in C:\Users\usuario\Downloads\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Controllers\AuthController.cs:line 35
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AuthServices.Api.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\usuario\Downloads\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Middlewares\ErrorHandlingMiddleware.cs:line 22
+[23:09:40 INF] Login Sign In
+[23:09:55 INF] Login Sign In
+[23:10:13 INF] Login Sign In
+[23:10:27 INF] Login Sign In
+[23:10:36 INF] Task Update
+[23:10:43 INF] Task Update
+[23:11:00 INF] Login Sign In
+[23:11:11 INF] Login Sign In
+[23:11:11 ERR] Unhandled exception occurred
+AuthServices.Application.Exceptions.AuthenticationException: Invalid email or password
+   at AuthServices.Infraestructure.Service.AuthService.AuthenticateAsync(String email, String password) in C:\Users\usuario\Downloads\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Infraestructure\Service\AuthService.cs:line 60
+   at AuthServices.Api.Controllers.AuthController.Login(CredentialDto loginDto) in C:\Users\usuario\Downloads\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Controllers\AuthController.cs:line 35
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AuthServices.Api.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\usuario\Downloads\Dev_ApiAuthService\Dev_ApiAuthService\Fuentes\AuthServices.Api\Middlewares\ErrorHandlingMiddleware.cs:line 22
+[23:11:15 INF] Login Sign In
+[23:18:15 INF] Task Update
+[23:46:45 INF] Login Sign In
+[23:47:21 INF] Task Update
+[23:50:15 INF] Task Update
