@@ -4,6 +4,7 @@
 
 Esta es una API RESTful para gestionar un sistema de inventario de productos.  
 Permite realizar operaciones **CRUD** (Crear, Leer, Actualizar, Eliminar) sobre productos, así como gestionar la **autenticación y autorización de usuarios** mediante JWT.
+El proyecto implementa la **arquitectura hexagonal** y sigue los principios **SOLID**, garantizando escalabilidad, mantenibilidad y separación clara de responsabilidades.
 
 ---
 
@@ -28,7 +29,7 @@ Permite realizar operaciones **CRUD** (Crear, Leer, Actualizar, Eliminar) sobre 
 ### 1. Crear la base de datos
 
 Crea una base de datos llamada `TaskManagerDB` en SQL Server.  
-Ejecuta el script **`ScriptCreacion de tablas.sql.sql`** ubicado en la raíz del respositorio.  
+Ejecuta el script **`ScriptCreacion de tablas.sql`** ubicado en la raíz del respositorio.  
 Este script crea las tablas necesarias y un **usuario administrador por defecto**.
 
 Email:admin@sistema.com
